@@ -11,6 +11,7 @@
     height: 64px;
     color: #FFFFFF;
     border: 0;
+    text-align: center;
 }
 
 h1,
@@ -132,3 +133,35 @@ section {
 }
 
 /* My Plans Section style end */
+
+/* Call me section style start */
+.call-me {
+    height: 300px;
+    background: -o-linear-gradient(left, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+    background: -webkit-gradient(linear, left top, right top, from(#F15B22), to(rgba(241, 91, 34, 0))), url(../images/watch.png);
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+
+.call-me-info {
+    padding: 60px 620px 60px 64px;
+}
+
+.info-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.cb {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 36px;
+    background: #FFFFFF;
+    color: #F15B22;
+}
+
+
+/* Call me section style end */
