@@ -13,6 +13,17 @@
     border: 0;
     text-align: center;
 }
+.btn-secondary {
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 20px 36px;
+    background: #FFFFFF;
+    color: #F15B22;
+    border: 0;
+    text-align: center;
+}
 
 h1,
 h2,
@@ -27,7 +38,7 @@ p {
     color: #444343;
 }
 
-/* Header section Start */
+/* Header section style Start */
 header {
     background: url(../images/banner/banner2.png);
     height: 800px;
@@ -53,7 +64,9 @@ header {
     margin-bottom: 32px;
 }
 
-/* Header section End */
+/* Header section style End */
+
+/* Main section style start */
 main {
     max-width: 1140px;
     margin: 0 auto;
@@ -155,13 +168,87 @@ section {
     margin-bottom: 24px;
 }
 
-.cb {
-    font-weight: 600;
-    font-size: 20px;
-    padding: 20px 36px;
-    background: #FFFFFF;
-    color: #F15B22;
+/* Call me section style end */
+
+/* Main section style end */
+
+/* Footer section style start */
+
+.contact {
+    background: #151414;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
 }
 
+/* future section style start */
+.future {
+    padding: 130px 230px;
+}
 
-/* Call me section style end */
+.f-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.f-desc {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 23px;
+}
+
+.social p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+/* future section style end */
+
+/* subscribe section style start */
+.subscribe {
+    padding: 130px 230px;
+}
+
+.s-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #F8F8F8;
+}
+.subscribe input{
+    margin-top: 30px;
+    margin-bottom: 16px;
+    padding: 20px;
+    width: 100%;
+    background: #151414;
+    border: 1px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.subscribe input::-webkit-input-placeholder{
+    color: #F3F3F3;
+}
+.subscribe input::-moz-placeholder{
+    color: #F3F3F3;
+}
+.subscribe input:-ms-input-placeholder{
+    color: #F3F3F3;
+}
+.subscribe input::-ms-input-placeholder{
+    color: #F3F3F3;
+}
+.subscribe input::placeholder{
+    color: #F3F3F3;
+}
+
+/* subscribe section style end */
+
+/* Footer section style end */
