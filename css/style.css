@@ -10,13 +10,22 @@
     padding: 21px 25px;
     height: 64px;
     color: #FFFFFF;
+    border: 0;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #151414;
 }
-p{
+
+p {
     color: #444343;
 }
+
 /* Header section Start */
 header {
     background: url(../images/banner/banner2.png);
@@ -25,19 +34,101 @@ header {
     background-position: center;
     background-size: cover;
 }
+
 .header {
     padding: 216px 230px 216px 845px;
     text-align: right;
 }
+
 .header-title {
     font-weight: 700;
     font-size: 65px;
     margin-bottom: 24px;
 }
-.header-description{
+
+.header-description {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 32px;
 }
 
 /* Header section End */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* section style start */
+section {
+    margin-top: 130px;
+}
+
+/* section style end */
+
+/* my-previous-year section style  start*/
+.my-previous-year {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 87px;
+}
+
+.right-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.right-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.right-desc-list p {
+    margin-bottom: 8px;
+}
+
+/* my-previous-year section style  end*/
+
+/* My Plans Section style start */
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.plans-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 86px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.plan {
+    text-align: center;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.plan-desc {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* My Plans Section style end */
